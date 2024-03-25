@@ -11,3 +11,7 @@ The purpose of this project is to provide a quicker way to access the informatio
   - Be provided with a list of drop locations and drop chances for the item
 - Search for any mission in the game
   - Be provided with a list of items that can drop in the mission
+
+## License
+
+[MIT](https://github.com/sanes-io/wfdrops?tab=MIT-1-ov-file)
