@@ -26,6 +26,10 @@ module.exports = {
       'warn',
       { vars: 'all', args: 'all', ignoreRestSiblings: false },
     ],
+    'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
+    'prettier/prettier': 'error',
+    '@typescript-eslint/no-unsafe-call': 'warn',
   },
   parserOptions: {
     ecmaVersion: 'latest',
