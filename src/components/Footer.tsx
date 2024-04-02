@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 const Footer: FC = () => {
   return (
-    <footer>
+    <footer className="h-[5%] w-full">
       <p>© 2021 WFDrops</p>
     </footer>
   );
