@@ -2,13 +2,13 @@ import { FC } from 'react';
 
 const Header: FC = () => {
   return (
-    <header className="flex flex-col items-center p-5 h-1/4">
+    <header className="flex flex-col items-center p-3 h-1/3">
       <img
-        src="../../public/LotusFlower.png"
-        className="mx-auto object-contain p-5 h-1/2 w-1/2 block"
+        src="/LotusFlower.png"
+        className="my-8 object-contain p-3 h-1/2 block"
         alt="Lotus Flower"
       />
-      <img src="../../public/wfdrops-header.png" className="p-5 h-1/5 block" />
+      <img src="/wfdrops-header.png" className="h-1/6 block" />
     </header>
   );
 };

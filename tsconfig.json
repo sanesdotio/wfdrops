@@ -24,7 +24,8 @@
     "src",
     "vite.config.ts",
     "tailwind.config.js",
-    "postcss.config.cjs"
+    "postcss.config.cjs",
+    "env.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
