@@ -6,9 +6,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:eslint-plugin-prettier/recommended',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'prettier.config.cjs'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', '.prettierrc'],
   parser: '@typescript-eslint/parser',
   plugins: [
     'react',
@@ -28,7 +27,6 @@ module.exports = {
     ],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
-    'prettier/prettier': 'error',
     '@typescript-eslint/no-unsafe-call': 'warn',
   },
   parserOptions: {

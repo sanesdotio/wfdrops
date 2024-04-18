@@ -1,6 +1,9 @@
+/* eslint-disable no-undef */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+// prettier.config.js
 module.exports = {
-  printWidth: 80,
+  plugins: [import('prettier-plugin-tailwindcss')],
   singleQuote: true,
-  quoteProps: 'preserve',
-  plugins: ['prettier-plugin-tailwindcss'],
+  printWidth: 120,
+  tailwindConfig: './tailwind.config.js',
 };

@@ -7,7 +7,7 @@ const AppLayout: FC = () => {
   return (
     <div
       id="container"
-      className="h-screen text-color-text-primary bg-color-primary"
+      className="text-color-text-primary bg-color-primary h-screen"
     >
       <Header />
       <ItemSearch />

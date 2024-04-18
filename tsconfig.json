@@ -25,7 +25,8 @@
     "vite.config.ts",
     "tailwind.config.js",
     "postcss.config.cjs",
-    "env.ts"
+    "env.ts",
+    "prettier.config.cjs"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
